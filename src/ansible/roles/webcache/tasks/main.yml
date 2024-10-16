@@ -1,0 +1,10 @@
+---
+- name: webcache in /etc/hosts
+  ansible.builtin.lineinfile:
+    path: /etc/hosts
+    regexp: '^{{ local_server }}'
+    line: "{{ local_server }} ota.waydro.id"
+    owner: root
+    group: root
+    mode: '0644'
+  become: true
