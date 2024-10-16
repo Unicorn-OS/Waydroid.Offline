@@ -1,0 +1,7 @@
+repo="Waydroid.offline"
+name="waydroid"
+bin=$name
+
+package=(
+    "foobar"
+    )
