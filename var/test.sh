@@ -1,3 +1,3 @@
 try(){
-	systemctl status apache2.service
+	which waydroid
 }

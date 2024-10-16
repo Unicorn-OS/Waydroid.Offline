@@ -3,5 +3,12 @@ name="waydroid"
 bin=$name
 
 package=(
-    "foobar"
+    "libglibutil"
+    "libgbinder"
+    "python3-gbinder"
+    "liblxc1t64"
+    "liblxc-common"
+    "lxcfs"
+    "lxc_"
+    "waydroid"
     )
